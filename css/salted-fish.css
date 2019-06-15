@@ -1,0 +1,21 @@
+/* 卡片边距 */
+.sf-card-margin {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+/* 卡片按钮边距 */
+.sf-card-button-margin {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+/* footer logo */
+.sf-footer-logo {
+  padding-bottom: 15px;
+}
+/* footer link */
+.sf-footer-link {
+  padding-bottom: 15px;
+}

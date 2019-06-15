@@ -16,3 +16,8 @@
   padding-left: 15px;
   padding-right: 15px;
 }
+/* 文章 下载 */
+.sf-article-download {
+  padding-bottom: 15px;
+  text-align: center;
+}

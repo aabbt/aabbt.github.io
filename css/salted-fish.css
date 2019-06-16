@@ -6,17 +6,17 @@
   padding-bottom: 15px;
 }
 /* 卡片按钮边距 */
-.sf-card-button-margin {
+/*.sf-card-button-margin {
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 15px;
-}
+}*/
 /* footer copyright */
 .sf-footer-copyright {
   padding-left: 15px;
   padding-right: 15px;
 }
-/* 文章 下载 */
+/* article download */
 .sf-article-download {
   padding-bottom: 15px;
   text-align: center;

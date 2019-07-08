@@ -6,187 +6,67 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
   <meta name="renderer" content="webkit">
   <title>咸鱼俱乐部</title>
-  <link rel="stylesheet" href="https://dylan678.github.io/salted-fish/css/mdui.css"/>
-  <link rel="stylesheet" href="https://dylan678.github.io/salted-fish/css/salted-fish.css">
+  <link rel="stylesheet" href="css/mdui.css"/>
+  <link rel="stylesheet" href="css/salted-fish.css">
 </head>
 
 <!-- 标题栏 -->
 <body class="mdui-drawer-body-left mdui-appbar-with-toolbar  mdui-theme-primary-indigo mdui-theme-accent-indigo">
-<header class="mdui-appbar mdui-appbar-fixed">
+<header class="mdui-appbar mdui-appbar-fixed mdui-appbar-scroll-hide">
   <div class="mdui-toolbar mdui-color-theme">
-    <span class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-drawer="{target: '#main-drawer', swipe: true}"><i class="mdui-icon material-icons">menu</i></span>
-    <a href="https://dylan678.github.io/salted-fish/" class="mdui-typo-title">咸鱼俱乐部</a>
+    <a href="https://dylan678.github.io/salted-fish/article/list/list.html" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">menu</i></a>
+    <a href="https://dylan678.github.io/salted-fish/index.html" class="mdui-typo-title">咸鱼俱乐部</a>
     <div class="mdui-toolbar-spacer"></div>
+    <a href="#" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></a>
+    <a href="javascript:location.reload();" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">refresh</i></a>
+    <a href="#" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">more_vert</i></a>
   </div>
 </header>
-
-<!-- 下拉列表 -->
-<div class="mdui-drawer" id="main-drawer">
-  <img class="mdui-img-fluid" src="img/logo/salted-fish.png"/>
-  <div class="mdui-list" mdui-collapse="{accordion: true}" style="margin-bottom: 76px;">
-    <div class="mdui-collapse-item ">
-      <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
-        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-blue">near_me</i>
-        <div class="mdui-list-item-content">最新动态</div>
-        <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
-      </div>
-      <div class="mdui-collapse-item-body mdui-list">
-        <a href="https://dylan678.github.io/salted-fish/" class="mdui-list-item mdui-ripple ">最新动态</a>
-        <a href="NO-world-truck-driving-simulator.html" class="mdui-list-item mdui-ripple ">世界卡车驾驶模拟</a>
-        <a href="NO-world-bus-driving-simulator.html" class="mdui-list-item mdui-ripple ">世界巴士驾驶模拟</a>
-        <a href="NO-grand-truck-simulator-2.html" class="mdui-list-item mdui-ripple ">大卡车模拟器2</a>
-        <a href="NO-others.html" class="mdui-list-item mdui-ripple ">其他动态</a>
-      </div>
-    </div>
-    <div class="mdui-collapse-item ">
-      <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
-        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-green">store</i>
-        <div class="mdui-list-item-content">资源下载</div>
-        <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
-      </div>
-      <div class="mdui-collapse-item-body mdui-list">
-        <a href="DO-games.html" class="mdui-list-item mdui-ripple ">下载游戏</a>
-        <a href="DO-store.html" class="mdui-list-item mdui-ripple ">游戏商店</a>
-        <a href="DO-google-play.html" class="mdui-list-item mdui-ripple ">谷歌商店</a>
-      </div>
-    </div>
-    <div class="mdui-collapse-item ">
-      <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
-        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-deep-orange">videogame_asset</i>
-        <div class="mdui-list-item-content">游戏攻略</div>
-        <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
-      </div>
-      <div class="mdui-collapse-item-body mdui-list">
-        <a href="SO-load.html" class="mdui-list-item mdui-ripple ">安装皮肤教程</a>
-        <a href="SO-backups.html" class="mdui-list-item mdui-ripple ">替换存档教程</a>
-      </div>
-    </div>
-    <div class="mdui-collapse-item ">
-      <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
-        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-purple">filter_hdr</i>
-        <div class="mdui-list-item-content">高清皮肤</div>
-        <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
-      </div>
-      <div class="mdui-collapse-item-body mdui-list">
-        <a href="HO-world-truck-driving-simulator.html" class="mdui-list-item mdui-ripple ">世界卡车驾驶模拟</a>
-        <a href="HO-world-bus-driving-simulator.html" class="mdui-list-item mdui-ripple ">世界巴士驾驶模拟</a>
-        <a href="HO-grand-truck-simulator-2.html" class="mdui-list-item mdui-ripple ">大卡车模拟器2</a>
-        <a href="HO-others.html" class="mdui-list-item mdui-ripple ">其他皮肤</a>
-      </div>
-    </div>
-    <div class="mdui-collapse-item ">
-      <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
-        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-brown">format_paint</i>
-        <div class="mdui-list-item-content">皮肤制作</div>
-        <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
-      </div>
-      <div class="mdui-collapse-item-body mdui-list">
-        <a href="MO-apps.html" class="mdui-list-item mdui-ripple ">P图软件</a>
-        <a href="MO-tutorials.html" class="mdui-list-item mdui-ripple ">P图教程</a>
-        <a href="MO-texture.html" class="mdui-list-item mdui-ripple ">高清贴图素材</a>
-      </div>
-    </div>
-    <div class="mdui-collapse-item ">
-      <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
-        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-pink">insert_drive_file</i>
-        <div class="mdui-list-item-content">皮肤模板</div>
-        <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
-      </div>
-      <div class="mdui-collapse-item-body mdui-list">
-        <a href="TO-world-truck-driving-simulator.html" class="mdui-list-item mdui-ripple ">世界卡车驾驶模拟</a>
-        <a href="TO-world-bus-driving-simulator.html" class="mdui-list-item mdui-ripple ">世界巴士驾驶模拟</a>
-        <a href="TO-grand-truck-simulator-2.html" class="mdui-list-item mdui-ripple ">大卡车模拟器2</a>
-        <a href="TO-others.html" class="mdui-list-item mdui-ripple ">其他模板</a>
-      </div>
-    </div>
-    <div class="mdui-collapse-item ">
-      <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
-        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-blue-grey">vpn_key</i>
-        <div class="mdui-list-item-content">科学上网</div>
-        <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
-      </div>
-      <div class="mdui-collapse-item-body mdui-list">
-        <a href="VO-vpn.html" class="mdui-list-item mdui-ripple ">代理软件</a>
-        <a href="https://91en.github.io/91en/" class="mdui-list-item mdui-ripple ">SSR</a>
-        <a href="VO-others.html" class="mdui-list-item mdui-ripple ">其他工具</a>
-      </div>
-    </div>
-    <div class="mdui-collapse-item ">
-      <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
-        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-red">web</i>
-        <div class="mdui-list-item-content">外网皮肤</div>
-        <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
-      </div>
-      <div class="mdui-collapse-item-body mdui-list">
-        <a href="V-vpn.html" class="mdui-list-item mdui-ripple ">Kivel Skinz</a>
-        <a href="V-ssr.html" class="mdui-list-item mdui-ripple ">AG-Ranswell</a>
-        <a href="V-others.html" class="mdui-list-item mdui-ripple ">World Truck Skins</a>
-      </div>
-    </div>
-    <div class="mdui-collapse-item ">
-      <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
-        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-orange">business</i>
-        <div class="mdui-list-item-content">官方网站</div>
-        <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
-      </div>
-      <div class="mdui-collapse-item-body mdui-list">
-        <a href="V-vpn.html" class="mdui-list-item mdui-ripple ">代理软件</a>
-        <a href="V-ssr.html" class="mdui-list-item mdui-ripple ">SSR</a>
-        <a href="V-others.html" class="mdui-list-item mdui-ripple ">其他工具</a>
-      </div>
-    </div>
-    <div class="mdui-typo-caption-opacity mdui-container">文章归档</div>
-    <div class="mdui-list-item mdui-ripple">
-      <div class="mdui-list-item-icon mdui-icon material-icons">label</div>
-      <div class="mdui-list-item-content">标签</div>
-    </div>
-    <div class="mdui-list-item mdui-ripple">
-      <div class="mdui-list-item-icon mdui-icon material-icons">date_range</div>
-      <div class="mdui-list-item-content">日期</div>
-    </div>
-    <div class="mdui-typo-caption-opacity mdui-container">其他信息</div>
-    <div class="mdui-list-item mdui-ripple">
-      <div class="mdui-list-item-icon mdui-icon material-icons">info</div>
-      <div class="mdui-list-item-content">关于</div>
-    </div>
-    <div class="mdui-list-item mdui-ripple">
-      <div class="mdui-list-item-icon mdui-icon material-icons">bug_report</div>
-      <div class="mdui-list-item-content">反馈Bug</div>
-    </div>
-  </div>
-</div>
 
 <!-- 主内容 -->
 <div class="sf-card-margin mdui-col-xs-12 mdui-col-sm-6">
   <div class="mdui-card mdui-ripple mdui-hoverable">
     <!-- 卡片头部，包含头像、标题、副标题 -->
     <div class="mdui-card-header">
-      <img class="mdui-card-header-avatar" src="https://dylan678.github.io/salted-fish/img/head/Salted-Fish.jpg"/>
-      <div class="mdui-card-header-title">翻车的咸鱼 ★★★★★★★</div>
-      <div class="mdui-card-header-subtitle">本站站长</div>
+      <img class="mdui-card-header-avatar" src="https://dylan678.github.io/salted-fish/img/head/world-truck-driving-simulator.jpg"/>
+      <div class="mdui-card-header-right-title">
+        ✪ 4.4
+      </div>
+      <div class="mdui-card-header-title">
+        World Bus Driving Simulator
+      </div>
+      <div class="mdui-card-header-right-subtitle">
+        2019/07/07 19:57
+      </div>
+      <div class="mdui-card-header-right-subtitle2">
+        1.083
+      </div>
+      <div class="mdui-card-header-subtitle">
+        468.73MB
+      </div>
     </div>
     <!-- 卡片的媒体内容，可以包含图片、视频等媒体内容，以及标题、副标题 -->
     <div class="mdui-card-media">
-      <img src="https://dylan678.github.io/salted-fish/img/article/world-bus-driving-simulator/0.65-01-Joan-Lima.jpg"/>
-    </div>
-    <!-- 卡片的标题和副标题 -->
-    <div class="mdui-card-primary">
-      <div class="mdui-card-primary-title">世界巴士 0.65 全车解锁</div>
-      <div class="mdui-card-primary-subtitle">原名: World Bus Driving Simulator</div>
-      <div class="mdui-card-primary-subtitle">文章发布日期: 2019年06月16日 星期六 20:56</div>
+      <img src="https://dylan678.github.io/salted-fish/img/article/world-truck-driving-simulator/1,079-01-Joan-Lima.jpg"/>
     </div>
     <!-- 卡片的内容 -->
-    <div class="mdui-card-content mdui-text-truncate" style="max-width: 360px;"><b>游戏大小:</b><br>422.63MB<br><b>更新内容:</b><br>新巴士加入了！ 添加新路线！ 新城增加（戈亚尼亚 - GO）</div>
+    <div class="mdui-card-content mdui-list-item-four-line" style="max-width: 360px;">
+      <b>更新内容：</b>最新的声音系统，你可以更改卡车的声音！（测试中），你可以使用.mp3，.ogg和.wav格式的音频文件。
+    </div>
     <!-- 卡片的按钮 -->
     <div class="sf-card-button-margin mdui-row-xs-2 mdui-col-sm-12">
-      <a href="https://dylan678.github.io/salted-fish/article/world-bus-driving-simulator/NO-world-bus-driving-simulator.html">
+      <a href="https://dylan678.github.io/salted-fish/article/world-truck-driving-simulator/NO-world-truck-driving-simulator.html">
         <div class="mdui-col">
-          <button class="mdui-btn mdui-btn-raised mdui-btn-block mdui-color-theme-accent mdui-ripple">其他版本</button>
+          <button class="mdui-btn mdui-btn-block mdui-color-theme-accent mdui-ripple">
+            其他版本
+          </button>
         </div>
       </a>
-      <a href="https://dylan678.github.io/salted-fish/article/world-bus-driving-simulator/DD-world-bus-driving-simulator.html">
+      <a href="https://dylan678.github.io/salted-fish/article/world-truck-driving-simulator/DD-world-truck-driving-simulator.html">
         <div class="mdui-col">
-          <button class="mdui-btn mdui-btn-raised mdui-btn-block mdui-color-theme-accent mdui-ripple">查看详情</button>
+          <button class="mdui-btn mdui-btn-block mdui-color-theme-accent mdui-ripple">
+            查看详情
+          </button>
         </div>
       </a>
     </div>
@@ -197,8 +77,8 @@
   <div class="mdui-card mdui-ripple mdui-hoverable">
     <!-- 卡片头部，包含头像、标题、副标题 -->
     <div class="mdui-card-header">
-      <img class="mdui-card-header-avatar" src="https://dylan678.github.io/salted-fish/img/head/Salted-Fish.jpg"/>
-      <div class="mdui-card-header-title">翻车的咸鱼 ★★★★★★★</div>
+      <img class="mdui-card-header-avatar" src="https://dylan678.github.io/salted-fish/img/head/world-truck-driving-simulator.jpg"/>
+      <div class="mdui-card-header-title">World Truck Driving Simulator(世界卡车) 1,079 全车解锁</div>
       <div class="mdui-card-header-subtitle">本站站长</div>
     </div>
     <!-- 卡片的媒体内容，可以包含图片、视频等媒体内容，以及标题、副标题 -->
@@ -207,12 +87,11 @@
     </div>
     <!-- 卡片的标题和副标题 -->
     <div class="mdui-card-primary">
-      <div class="mdui-card-primary-title">世界卡车 1,079 全车解锁</div>
-      <div class="mdui-card-primary-subtitle">原名: World Truck Driving Simulator</div>
+      <div class="mdui-card-primary-title">World Truck Driving Simulator(世界卡车) 1,079 全车解锁</div>
       <div class="mdui-card-primary-subtitle">文章发布日期: 2019年06月15日 星期六 09:17</div>
     </div>
     <!-- 卡片的内容 -->
-    <div class="mdui-card-content mdui-text-truncate" style="max-width: 360px;"><b>游戏大小:</b><br>451.44MB<br><b>更新内容:</b><br>最新的声音系统，你可以更改卡车的声音！（测试中），你可以使用.mp3，.ogg和.wav格式的音频文件。</div>
+    <div class="mdui-card-content mdui-list-item-four-line" style="max-width: 360px;"><b>游戏大小：</b>451.44MB<br><b>更新内容：</b>最新的声音系统，你可以更改卡车的声音！（测试中），你可以使用.mp3，.ogg和.wav格式的音频文件。</div>
     <!-- 卡片的按钮 -->
     <div class="sf-card-button-margin mdui-row-xs-2 mdui-col-sm-12">
       <a href="https://dylan678.github.io/salted-fish/article/world-truck-driving-simulator/NO-world-truck-driving-simulator.html">
@@ -238,15 +117,16 @@
     </div>
     <!-- 版权声明 -->
     <div class="mdui-col-xs-12">
-      <strong>版权声明</strong>
-      <p><small>分享本站的文章或分享自本站下载的文件前请务必使<mark>版权声明</mark>可见。禁止将本站文章进行任何形式的引用。</small>
+      <br>
+      <p><strong>版权声明</strong></p>
+      <p><small><i>分享本站的文章或分享自本站下载的文件前请务必使<b>版权声明</b>可见。禁止将本站文章进行任何形式的引用。</i></small>
       <br>咸鱼俱乐部发布的一切破解软件、破解游戏、皮肤、MOD、攻略及视频等仅限于学习、研究和交流；禁止将上述内容用于商业或者非法用途。
       <br>请尊重原创作者，明确标有原创的文章及文件禁止修改，禁止转载，除非你已与原作者协商。
       <br>一切解释权归咸鱼俱乐部所有。</p>
     </div>
     <!-- 网站链接 -->
     <div class="mdui-col-xs-12">
-      <strong>Copyright © 2016-2019 咸鱼俱乐部.</strong>
+      <p><strong>Copyright © 2016-2019 咸鱼俱乐部.</strong></p>
       <p><a href="https://qm.qq.com/cgi-bin/qm/qr?k=g9cghI3euU0ieP_Zb1mWdDJh7AQWSzTd" target="_blank">Made by 翻车的咸鱼</a></p>
       <p><a href="https://github.com/Dylan678/salted-fish.git" target="_blank">Powered by Github</a></p>
       <p><a href="http://www.mdui.org/" target="_blank">Optimized by MDUI</a></p>

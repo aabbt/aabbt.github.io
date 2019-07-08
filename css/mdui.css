@@ -7995,7 +7995,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
           user-select: none;
   background: transparent;
   border: none;
-  border-radius: 2px;
+  border-radius: 50px;
   outline: none;
   -webkit-transition: all .2s cubic-bezier(.4, 0, .2, 1), -webkit-box-shadow .2s cubic-bezier(.4, 0, 1, 1);
           transition: all .2s cubic-bezier(.4, 0, .2, 1), -webkit-box-shadow .2s cubic-bezier(.4, 0, 1, 1);
@@ -9661,31 +9661,31 @@ select.mdui-select[multiple] option:last-child {
   overflow: hidden;
   color: #000;
   background-color: #fff;
-  border-radius: 2px;
-  -webkit-box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
-          box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0px 0px 0px rgba(0, 0, 0, .2);
+          box-shadow: 0 0px 5px 0 rgba(0, 0, 0, .14);
 }
 /**
  * ===================== 头部，包含头像、标题、副标题
  */
 .mdui-card-header {
   position: relative;
-  height: 72px;
+  height: 70px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding: 16px;
+  padding: 10px;
 }
 /* 卡片头部头像 */
 .mdui-card-header-avatar {
   float: left;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border-radius: 20%;
 }
 /* 卡片头部标题 */
 .mdui-card-header-title {
   display: block;
-  margin-left: 52px;
+  margin-left: 60px;
   overflow: hidden;
   font-size: 16px;
   font-weight: 500;
@@ -9693,11 +9693,12 @@ select.mdui-select[multiple] option:last-child {
   text-overflow: ellipsis;
   white-space: nowrap;
   opacity: .87;
+  padding-top: 4px;
 }
 /* 卡片头部副标题 */
 .mdui-card-header-subtitle {
   display: block;
-  margin-left: 52px;
+  margin-left: 60px;
   overflow: hidden;
   font-size: 14px;
   font-weight: 400;
@@ -9705,13 +9706,56 @@ select.mdui-select[multiple] option:last-child {
   text-overflow: ellipsis;
   white-space: nowrap;
   opacity: .54;
+  padding-top: 4px;
+}
+/* 卡片头部右标题 */
+.mdui-card-header-right-title {
+  float: right;
+  display: block;
+  margin-right: 5px;
+  overflow: hidden;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  opacity: .87;
+  padding-top: 4px;
+}
+/* 卡片头部右副标题 */
+.mdui-card-header-right-subtitle {
+  float: right;
+  display: block;
+  margin-right: 5px;
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  opacity: .54;
+  padding-top: 4px;
+}
+/* 卡片头部右副标题2 */
+.mdui-card-header-right-subtitle2 {
+  float: right;
+  display: block;
+  margin-right: 65px;
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  opacity: .54;
+  padding-top: 4px;
 }
 /**
  * =========================== 主标题区域
  */
 .mdui-card-primary {
   position: relative;
-  padding: 24px 16px 16px 16px;
+  padding: 0px 10px 0px 10px;
 }
 /* 主标题区域标题 */
 .mdui-card-primary-title {

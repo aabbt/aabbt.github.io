@@ -1,14 +1,135 @@
 /* 卡片边距 */
-.sf-card-margin {
+.sf-card-range {
   padding: 10px;
 }
-/* 文章应用图标 */
-.sf-article-app-icon {
+/**************************************/
+/* 应用 */
+.sf-app {
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+  color: #000;
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0px 0px 0px rgba(0, 0, 0, .2), 0 0px 0px 0 rgba(0, 0, 0, .14), 0 0px 0px 0 rgba(0, 0, 0, .12);
+          box-shadow: 0 0px 0px 0px rgba(0, 0, 0, .2), 0 0px 0px 0 rgba(0, 0, 0, .14), 0 0px 0px 0 rgba(0, 0, 0, .12);
+}
+/* 应用头部 */
+.sf-app-header {
+  position: relative;
+  height: 100px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 6px;
+}
+/* 应用头部头像 */
+.sf-app-header-avatar {
   float: left;
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   border-radius: 20%;
-  display: block !important;
-  margin-right: auto !important;
-  margin-left: auto !important;
+}
+/* 应用头部标题 */
+.sf-app-header-title {
+  margin-left: 110px;
+  overflow: hidden;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  opacity: .87;
+  padding-top: 5px;
+}
+/* 应用头部副标题 */
+.sf-app-header-subtitle {
+  margin-left: 110px;
+  overflow: hidden;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  opacity: .54;
+  margin-top: 4px;
+}
+/* 应用头部副标题2 */
+.sf-app-header-subtitle2 {
+  margin-left: 110px;
+  overflow: hidden;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  opacity: .54;
+  margin-top: 6px;
+}
+/* 应用头部副标题3 */
+.sf-app-header-subtitle3 {
+  margin-left: 110px;
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  opacity: .54;
+  margin-top: 0px;
+}
+/* 应用头部右标题 */
+.sf-app-header-right-title {
+  float: right;
+  margin-right: 5px;
+  overflow: hidden;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 20px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  opacity: .87;
+  margin-top: 4px;
+}
+/* 应用头部右副标题 */
+.sf-app-header-right-subtitle {
+  float: right;
+  overflow: hidden;
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 20px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  opacity: .54;
+  margin-top: 4px;
+}
+/* 应用头部右副标题2 */
+.sf-app-header-right-subtitle2 {
+  margin-left: 110px;
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  opacity: .54;
+  margin-top: 4px;
+}
+/**************************************/
+/* 面板项标题边距 */
+.sf-panel-item-title-range {
+  margin-left: 16px;
+}
+/**************************************/
+/* 下载按钮边距 */
+.sf-download-range {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.sf-download-range2 {
+  padding-bottom: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
